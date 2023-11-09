@@ -1,8 +1,12 @@
 package model;
 import java.time.LocalDate;
 
+<<<<<<< HEAD
 public abstract class Console {
+=======
+import java.time.LocalDate;
 
+<<<<<<< Updated upstream
 
 
 
@@ -10,6 +14,14 @@ public abstract class Console {
 	protected int prix;
 	protected LocalDate date;
 	
+=======
+public class Console {
+>>>>>>> master
+
+	private String nom;
+	private int prix;
+	private LocalDate date;
+>>>>>>> Stashed changes
 	public Console(String nom, int prix, LocalDate date) {
 		this.nom = nom;
 		this.prix = prix;
