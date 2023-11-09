@@ -3,9 +3,6 @@ import java.time.LocalDate;
 
 public abstract class Console {
 
-
-
-
 	protected String nom;
 	protected int prix;
 	protected LocalDate date;
@@ -38,7 +35,5 @@ public abstract class Console {
 		return "Console [nom=" + nom + ", prix=" + prix + ", date=" + date + "]";
 	}
 
-	
-	
 	
 }
