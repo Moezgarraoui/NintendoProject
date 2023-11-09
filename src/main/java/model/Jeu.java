@@ -57,6 +57,10 @@ public class Jeu {
 	public String toString() {
 		return "Jeu [titre=" + titre + ", console=" + console + ", boutique=" + boutique + "]";
 	}
+
+
+
+	
 	
 	
 }
