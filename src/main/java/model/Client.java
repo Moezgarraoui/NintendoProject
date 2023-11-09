@@ -6,22 +6,22 @@ import java.util.List;
 public class Client {
 	private String nom;
 	private String prenom;
-	private List<String> achat = new ArrayList(); 
+	private List<Achat> achat = new ArrayList(); 
 	
 	
-	public Client(String nom, String prenom, List<String> achat) {
+	public Client(String nom, String prenom, List<Achat> achat) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.achat = achat; 
 	}
 	
 	
-	public List<String> getAchat() {
+	public List<Achat> getAchat() {
 		return achat;
 	}
 
 
-	public void setAchat(List<String> achat) {
+	public void setAchat(List<Achat> achat) {
 		this.achat = achat;
 	}
 
