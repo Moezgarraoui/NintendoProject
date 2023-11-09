@@ -19,16 +19,17 @@ public class Test {
 
 		Client c1 = new Client("Mbappé", "kylian", achat); 
 		Client c2 = new Client("Gall", "France", achat); 
-		
-		Jeu jeu1 = new Jeu(null, null, null);
-        Jeu jeu2 = new Jeu(null, null, null);
-        Jeu jeu3 = new Jeu(null, null, null);
-        Jeu jeu4 = new Jeu(null, null, null);
-        Jeu jeu5 = new Jeu(null, null, null);
-        
 
 		Adresse a = new Adresse(2, "Rue du Chateaux", "Hyrule");
 		Boutique b = new Boutique("Carrefour", a);
+		
+		Jeu jeu1 = new Jeu(null, null, b);
+        Jeu jeu2 = new Jeu(null, null, b);
+        Jeu jeu3 = new Jeu(null, null, b);
+        Jeu jeu4 = new Jeu(null, null, b);
+        Jeu jeu5 = new Jeu(null, null, b);
+        
+
 	}}
 
 
