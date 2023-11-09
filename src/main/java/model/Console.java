@@ -1,11 +1,13 @@
 package model;
 import java.time.LocalDate;
 
+
 public abstract class Console {
 
 	protected String nom;
 	protected int prix;
 	protected LocalDate date;
+
 
 	public Console(String nom, int prix, LocalDate date) {
 		this.nom = nom;
