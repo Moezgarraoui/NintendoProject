@@ -37,6 +37,6 @@ public abstract class Console {
 	public String toString() {
 		return "Console [nom=" + nom + ", prix=" + prix + ", date=" + date + "]";
 	}
-
+	
 	
 }
