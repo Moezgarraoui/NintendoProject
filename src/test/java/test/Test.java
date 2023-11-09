@@ -3,6 +3,8 @@ package test;
 
 import java.util.List;
 
+import model.Adresse;
+import model.Boutique;
 import model.Client;
 import model.Jeu ; 
 
@@ -23,6 +25,10 @@ public class Test {
         Jeu jeu3 = new Jeu(null, null, null);
         Jeu jeu4 = new Jeu(null, null, null);
         Jeu jeu5 = new Jeu(null, null, null);
+        
+
+		Adresse a = new Adresse(2, "Rue du Chateaux", "Hyrule");
+		Boutique b = new Boutique("Carrefour", a);
 	}}
 
 
