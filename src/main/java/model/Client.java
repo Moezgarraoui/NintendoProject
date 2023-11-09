@@ -45,11 +45,6 @@ public class Client {
 		return "Client [nom=" + nom + ", prenom=" + prenom + ", achat=" + achat + "]";
 	}
 
-
-
-	
-	
-	
 	
 
 }
